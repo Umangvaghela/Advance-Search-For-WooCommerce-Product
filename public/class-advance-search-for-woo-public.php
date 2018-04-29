@@ -99,7 +99,7 @@ class Advance_Search_For_Woo_Public {
 		wp_enqueue_script('jquery-ui-slider');
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/advance-search-for-woo-public.js', array( 'jquery' ), $this->version, false );
 		wp_localize_script( $this->plugin_name, 'adminajaxjs', array('adminajaxjsurl' => admin_url( 'admin-ajax.php' )));
-		wp_localize_script( $this->plugin_name, 'ajaxicon', array('loderurl' => site_url('wp-content/plugins/advance-search-for-woo/public/images/ajax-loader.gif')) );
+		wp_localize_script( $this->plugin_name, 'ajaxicon', array('loderurl' => echo plugin_dir_url( __FILE__ ).'images/ajax-loader.gif') );
 
 	} 
 	public function advance_serach_for_woocommerce_shortcode ( $atts = array() ){  
@@ -194,7 +194,7 @@ class Advance_Search_For_Woo_Public {
 			$slider_price_max = $prices->max_price;
 		}
 		?>
-		<link rel="stylesheet" href="<?php echo site_url('wp-content/plugins/advance-search-for-woo/public/css/jquery-ui.css'); ?>">
+		<link rel="stylesheet" href="<?php echo echo plugin_dir_url( __FILE__ ).'css/jquery-ui.css' ; ?>">
 			<div class="Advance_search_for_woo_display_main"> 
 				<?php if(is_shop() ) { 
 					$shop_page_url_or_not = "shop";
