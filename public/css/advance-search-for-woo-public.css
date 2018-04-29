@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+
+
+//start custom css
+input#Search_Button_Preview {
+    margin: 0 0 0 16px;
+    padding: 14px;
+    width: 17%;
+}
+input.default_preview_set_search_text2 {
+    display: inline-block;
+    width: 57% !important;
+}
+.Advance_Search_Button {
+    margin-top: 11px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Advance_search_for_woo_display_main {
+    margin-top: 26px;
+}
+.advace_search_filter_html {
+    margin-left: 2%;
+    display: inline-block;
+}
+.Advance_search_select_category {
+   /* display: inline-block;*/
+   margin-bottom: 2%;
+}
+p.advace_search_filter_inner_html {
+    width: 100%;
+    margin: 0 0 0.75em;
+}
+.order_by_filter {
+    /*display: inline-block;
+    margin-left: 2%;*/
+}
+
+
+.advance_default_search_advance_search_option {
+    margin-bottom: 3%;
+}
+input.advance_search_for_woocommerce_save_btn {
+    margin-left: 1%;
+}
+select.select_attributes_name_css {
+    margin-right: 15px;
+}
+select.select_attributes_name_css {
+    width: 15%;
+    margin-top: 15px;
+}
+
+/* 22-08-2016 */
+.Advance_search_select_category select {
+    width: 47%;
+}
+.order_by_filter select {
+    /* width: 90%; */
+    width: 47%;
+}
+fieldset.wbm_global {
+    border: 1px solid #ccc;
+    padding: 0px 1%;
+    margin-bottom: 3%;
+    padding-bottom: 15px;
+    width: 95%;
+}
+.advance_search_attributes select {
+    width: 47%;
+}
+.advance_searching_price_slider_main {
+    width: 95%;
+}
+select.advance_search_product_or_sku_preview_html {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#loadingScreen {background: rgba(0, 0, 0, 0) url("../images/ajax-loader.gif") no-repeat scroll 5px 8px;height: 50px;left: 500px;margin: 0 auto;padding-left: 25px;position: absolute;top: 300px;width: 10%;z-index: 999999999;}
+
+
+.Advance_search_for_woo_display_main {
+    border: 2px  solid green;
+    padding: 2%;
+    margin: 1%;
+}
+
+input.default_preview_set_search_text2 {
+    width: 47% !important;
+    display: inline-block !important;
+}
+input.button.button-primary.advance_search_for_woocommerce_save_btn {
+    background-color: green;
+}
+select.select_attributes_name_css {
+    display: inline-block;
+}
+
+label.attributes_name_class {
+    width: 40%;
+    display: inline;
+}
